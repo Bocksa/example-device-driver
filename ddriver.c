@@ -45,8 +45,6 @@ static int __init init_mdl(void) {
 
     if (retval == 0) {
         printk("dev_testdr registered to major number %d and minor number %d\n", MAJOR_DEVICE_NUMBER, MINOR_DEVICE_NUMBER);
-    } else if (retval > 0) {
-        printk("dev_testdr registered to major number %d and minor number %d\n", retval>>20, retval&0xfffff);
     } else {
         printk("Could not register dev_testdr\n");
         return -1;
