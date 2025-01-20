@@ -1,4 +1,4 @@
-# Template Linux Kernel Module
+# Template Linux Device Driver
 
 ## Setup
 1. Enter into build.sh
