@@ -3,5 +3,5 @@
 ## Build Command
 
 ```
-make
+./build.sh
 ```
